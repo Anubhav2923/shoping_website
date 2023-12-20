@@ -1,0 +1,46 @@
+@media (max-width: 512px) {
+   
+    header {
+        display: flex;
+        justify-content: space-evenly;
+        height: 70px;
+    }
+    .respn-navbar {
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        gap:1.1rem;
+        margin-inline: 4%;
+    }
+    
+    .navbar-links{
+        display: none;
+    }
+    .logo-container {
+        display: none;
+    }
+    .search-box input {
+        display: none;
+    }
+    .logo-name {
+        color: rgba(0, 0, 0, 0.908);
+        font-weight: 600;
+    }
+
+    .search-box span {
+        background: none;
+        position: absolute;
+        right: 110px;
+    }
+    
+    .action-bar {
+        gap: 10px;
+    }
+    .action-name {
+        display: none;
+    }
+    .rem {
+        display: none;
+    }
+   
+}
